@@ -14,7 +14,7 @@
 #include "GameController.h"
 
 /*
-An large game of Asteronis with extra cheese.
+Asteroids!
 
 Author: Chris Collins
 */
@@ -66,7 +66,7 @@ void setupGLUTStuff()
 	// Initialize GLUT
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH);
 	glutInitWindowSize(1280, 960);
-	glutCreateWindow("Asteronis");
+	glutCreateWindow("Asteroids - Now with more Thrust!");
 
 	// Setup GLUT callbacks (input, game loop, etc)
 	glutTimerFunc(TIMER, update, 0);
