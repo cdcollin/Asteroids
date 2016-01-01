@@ -1,2 +1,2 @@
 # Asteroids
-A simple rendition of Asteroids using OpenGL
+A simple rendition of Asteroids using OpenGL.
